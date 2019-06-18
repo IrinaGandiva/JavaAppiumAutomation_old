@@ -14,5 +14,14 @@ public class MainClassTest extends MainClass {
         if (b > 45) {System.out.println("yes");}
         else {System.out.println("result <= 45");}
     }
+
+    @Test
+    public void testGetClassString(){
+        String c = getClassString();
+        if (c.contains("hello")) {System.out.println("yes");}
+        else if(c.contains("Hello"))
+        {System.out.println("yes");}
+        else {System.out.println("Строка \"" + c + "\" не содержит \"Hello\" или \"hello\")");}
+    }
 }
 
