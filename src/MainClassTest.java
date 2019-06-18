@@ -7,5 +7,5 @@ public class MainClassTest extends MainClass {
         if (a == 14) {System.out.println("yes");}
         else {System.out.println("result != 14");}
     }
-
+//илилитл
 }
