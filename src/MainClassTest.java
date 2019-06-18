@@ -7,5 +7,12 @@ public class MainClassTest extends MainClass {
         if (a == 14) {System.out.println("yes");}
         else {System.out.println("result != 14");}
     }
-//илилитл
+
+    @Test
+    public void testGetClassNumber(){
+        int b = getClassNumber();
+        if (b > 45) {System.out.println("yes");}
+        else {System.out.println("result <= 45");}
+    }
 }
+
